@@ -6,15 +6,15 @@
   
   <title>博客搭建 | 愿历尽千帆，归来仍少年</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="介绍本网站是如何搭建和使用的。 环境搭建参考：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;69207995 进阶配置使用方式HexoWelcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you">
+  <meta name="description" content="介绍本网站是如何搭建和使用的。 环境搭建参考：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;69207995 进阶配置 安装node.js； 安装hexo； gitlab新建仓库，注意命名； 本地deploy配置gitlab。  使用方式HexoWelcome to Hexo! This is your very first post. Check documentation for">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客搭建">
 <meta property="og:url" content="http://example.com/2024/05/23/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="愿历尽千帆，归来仍少年">
-<meta property="og:description" content="介绍本网站是如何搭建和使用的。 环境搭建参考：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;69207995 进阶配置使用方式HexoWelcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you">
+<meta property="og:description" content="介绍本网站是如何搭建和使用的。 环境搭建参考：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;69207995 进阶配置 安装node.js； 安装hexo； gitlab新建仓库，注意命名； 本地deploy配置gitlab。  使用方式HexoWelcome to Hexo! This is your very first post. Check documentation for">
 <meta property="og:locale">
 <meta property="article:published_time" content="2024-05-23T10:58:06.000Z">
-<meta property="article:modified_time" content="2024-05-23T14:54:58.627Z">
+<meta property="article:modified_time" content="2024-05-23T15:10:06.831Z">
 <meta property="article:author" content="dmqm">
 <meta name="twitter:card" content="summary">
   
@@ -95,7 +95,13 @@
       
         <p>介绍本网站是如何搭建和使用的。</p>
 <h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><p>参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/69207995">https://zhuanlan.zhihu.com/p/69207995</a></p>
-<h2 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h2><h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h2><ol>
+<li>安装node.js；</li>
+<li>安装hexo；</li>
+<li>gitlab新建仓库，注意命名；</li>
+<li>本地deploy配置gitlab。</li>
+</ol>
+<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h4 id="Create-a-new-post：创建新的文章"><a href="#Create-a-new-post：创建新的文章" class="headerlink" title="Create a new post：创建新的文章"></a>Create a new post：创建新的文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -106,7 +112,6 @@
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h4 id="Deploy-to-remote-sites：部署服务"><a href="#Deploy-to-remote-sites：部署服务" class="headerlink" title="Deploy to remote sites：部署服务"></a>Deploy to remote sites：部署服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
